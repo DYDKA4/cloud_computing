@@ -8,6 +8,5 @@ WORKDIR app
 
 RUN pip install -r requirements.txt
 
-COPY .venv /app/.venv
 COPY main.py /app/main.py
 EXPOSE 5000
