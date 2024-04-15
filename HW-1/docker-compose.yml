@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  mysql_db:
+    build:
+      context: ./database
+      dockerfile: ./Dockerfile
+      network: host
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: stage
+      MYSQL_USER: example
+      MYSQL_PASSWORD: secret2
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      timeout: 20s
+      retries: 10
+    volumes:
+      - dbdata:/var/lib/mysql/
+
+  flask:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+      network: host
+    ports:
+      - '5000:5000'
+    depends_on:
+      mysql_db:
+        condition: service_healthy
+    command: python main.py
+
+volumes:
+  dbdata:
