@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  mysql_db:
+  mysqldb:
     build:
       context: ./database
       dockerfile: ./Dockerfile
@@ -25,10 +25,15 @@ services:
       context: ./app
       dockerfile: ./Dockerfile
       network: host
+    environment:
+      MYSQL_HOST: mysqldb
+      MYSQL_USER: root
+      MYSQL_PASSWORD: example
+      MYSQL_DB: stage
     ports:
       - '5000:5000'
     depends_on:
-      mysql_db:
+      mysqldb:
         condition: service_healthy
     command: python main.py
 

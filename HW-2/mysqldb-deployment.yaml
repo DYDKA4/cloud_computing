@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: mysqldb
+  name: mysqldb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: mysqldb
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        network/hw-1-default: "true"
+        service: mysqldb
+    spec:
+      containers:
+        - env:
+            - name: MYSQL_DATABASE
+              value: stage
+            - name: MYSQL_PASSWORD
+              value: secret2
+            - name: MYSQL_ROOT_PASSWORD
+              value: example
+            - name: MYSQL_USER
+              value: example
+          image: dydka4/cloud_mysql
+          livenessProbe:
+            exec:
+              command:
+                - mysqladmin
+                - ping
+                - -h
+                - localhost
+            failureThreshold: 10
+            timeoutSeconds: 20
+          name: mysqldb
+          ports:
+            - containerPort: 3306
+              hostPort: 3306
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /var/lib/mysql
+              name: dbdata
+      restartPolicy: Always
+      volumes:
+        - name: dbdata
+          persistentVolumeClaim:
+            claimName: dbdata

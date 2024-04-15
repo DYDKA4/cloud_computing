@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: flask
+  name: flask
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: flask
+  template:
+    metadata:
+      labels:
+        network/hw-1-default: "true"
+        service: flask
+    spec:
+      containers:
+        - args:
+            - python
+            - main.py
+          env:
+            - name: MYSQL_DB
+              value: stage
+            - name: MYSQL_HOST
+              value: mysqldb
+            - name: MYSQL_PASSWORD
+              value: example
+            - name: MYSQL_USER
+              value: root
+          image: dydka4/cloud_app
+          name: flask
+          ports:
+            - containerPort: 5000
+              hostPort: 5000
+              protocol: TCP
+      restartPolicy: Always
