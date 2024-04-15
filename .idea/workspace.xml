@@ -5,67 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b7fed8-4520-427a-aae3-c2c72f120b31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CloudComputing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CloudComputing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/dbdata-persistentvolumeclaim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/flask-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/flask-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/mysqldb-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW-2/mysqldb-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d423e97-c3ef-4ca4-ad76-1e2bb5754825.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#ib_16384_0.dblwr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo10" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo11_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo11_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo12_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo13_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo13_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo14_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo14_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo15_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo15_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo16_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo16_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo17_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo17_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo18_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo19_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo20_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo21_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo21_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo22_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo22_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo23_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo23_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo24_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo24_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo25_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo25_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo26_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo26_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo27_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo28_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo29_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo29_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo30_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo30_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo31_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo31_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo32_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo33_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo33_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo34_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo34_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo35_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo36_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo37_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo38_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo38_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo39_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo40_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo41_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_redo/#ib_redo41_tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_10.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_2.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_3.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/binlog.000013" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/binlog.000013" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/cloud_computing/example_table.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/cloud_computing/example_table.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbdata/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/dbdata/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-1/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW-1/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-1/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HW-1/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-1/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HW-1/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -103,6 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/tulin/PycharmProjects/cloud_computing/HW-2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -119,6 +72,20 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW-2" />
+      <recent name="$PROJECT_DIR$/HW-2/database" />
+      <recent name="$PROJECT_DIR$/HW-2/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW-2" />
+      <recent name="$PROJECT_DIR$/HW-1/app" />
+      <recent name="$PROJECT_DIR$/HW-1" />
+      <recent name="$PROJECT_DIR$/HW-1/database" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CloudComputing" />
@@ -133,7 +100,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW-1/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,24 +109,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="HW-1: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="HW-1/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.HW-1: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
